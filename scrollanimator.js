@@ -1,5 +1,6 @@
 // Attaches to element, as you scroll down page attaches the video to image and calls animation. Loops through all on page -> Only one time.
 // EXP use: EL.scrollPlayer.init();
+// <div class="feature_player"><img src="" /></div>
 
 EL.scrollPlayer = (function() {
 var init = function() {
