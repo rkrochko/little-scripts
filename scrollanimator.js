@@ -17,9 +17,9 @@ var init = function() {
 			elements.hasPlayed = true;
 			playedNum++;
 			var elPlayer = elements.jObj.find('.feature_player');
-			elPlayer.ugovideo({
+			elPlayer.theVideo({
 				type: 'feature' + playedNum,
-	    		name: 'feature' + playedNum,
+	    			name: 'feature' + playedNum,
 				height: elPlayer.find('img').height(),
 				width: elPlayer.find('img').width(),
 				poster: '/videos/poster/',
